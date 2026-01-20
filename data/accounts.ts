@@ -1,3 +1,9 @@
+export interface Account {
+  id: number;
+  username: string;
+  funds: number;
+}
+
 export const accounts = [
   {
     id: 1,
